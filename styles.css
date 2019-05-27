@@ -1,0 +1,59 @@
+*{font-family: 'Cormorant Garamond', serif}
+
+header{
+	/* The image used */
+  	background-image: url("imgs/shiva-bg-2.jpg");
+
+  	/* height */
+  	min-height: 700px; 
+
+  	/* Center and scale the image nicely */
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover; 
+}
+
+h3{
+	color: white;
+	letter-spacing: 35px;
+	margin-top: 15%;
+	margin-left: 1.3%;
+}
+
+.about{
+	font-size: 23px;
+	margin-top: 2%;
+	margin-bottom: 5%; 
+	display:inline-block;
+    border-bottom:1px solid black;
+    padding-bottom: 5px;
+}
+
+.names{letter-spacing: 4px;}
+
+.no-shadows {box-shadow: none!important;}
+
+.content{font-size: 20px;}
+
+@media screen and (max-width: 670px){
+	header{
+		min-height: 550px;
+	}
+
+	h3{
+		color: white;
+		font-size: 30px;
+		letter-spacing: 35px;
+		margin-top: 8%;
+		margin-left: 4%;
+	}
+
+	.content{font-size: 12px;}
+
+	#main{
+		height: 300px; 
+		width: 200px;
+	}
+
+	.names{letter-spacing: 1px;}
+}
